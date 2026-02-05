@@ -9,7 +9,7 @@
   ];
   networking.hostName = "cronos";
 
-  # You will need to generate this later with 'nixos-generate-config'
+  boot.loader.systemd-boot.enable = true;
 
   system.stateVersion = "25.11"; # Match your installed version
 }

@@ -17,7 +17,7 @@
   home-manager.useGlobalPkgs = true;
   home-manager.useUserPackages = true;
 
-  home-manager.users.admin = {pkgs, ...}: {
+  home-manager.users.mpennington = {pkgs, ...}: {
     # The state version is required and should match your release
     home.stateVersion = "25.11";
 
